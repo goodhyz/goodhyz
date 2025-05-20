@@ -9,7 +9,7 @@ on:
 
   push:
     branches:
-      - source
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -33,3 +33,7 @@ jobs:
         with:
           branch: main
           message: 'Update Snake'
+          author_name: 'github-actions[bot]'
+          author_email: '41898282+github-actions[bot]@users.noreply.github.com'
+          committer_name: 'github-actions[bot]'
+          committer_email: '41898282+github-actions[bot]@users.noreply.github.com'
